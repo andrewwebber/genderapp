@@ -1,17 +1,9 @@
 ﻿namespace GenderApp.Aggregates
 {
-    using Microsoft.Phone.UserData;
-    using System;
-    using System.Collections.Generic;
-    using System.Collections.ObjectModel;
-    using System.Globalization;
-    using System.Linq;
-    using System.Net.Http;
-    using System.Text;
-    using System.Threading.Tasks;
-    using Windows.Phone.PersonalInformation;
+	using System.Collections.Generic;
+	using System.Threading.Tasks;
 
-    public class GenderAggregate : IGenderAggregate
+	public class GenderAggregate : IGenderAggregate
     {
         private IGenderRetriever genderRetriever;
         private IGenderContactsRetriever genderContactsRetriever;

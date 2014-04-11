@@ -1,15 +1,10 @@
 ﻿namespace GenderApp
 {
-    using GenderApp.Aggregates;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+	using System.Collections.ObjectModel;
+	using System.ComponentModel;
+	using GenderApp.Aggregates;
 
-    public class MainPageViewModel : INotifyPropertyChanged
+	public class MainPageViewModel : INotifyPropertyChanged
     {
         private int maleCount;
         private int femaleCount;

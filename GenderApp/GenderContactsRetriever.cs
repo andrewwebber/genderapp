@@ -1,10 +1,8 @@
-﻿using GenderApp.Aggregates;
-using Microsoft.Phone.UserData;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using GenderApp.Aggregates;
+using Microsoft.Phone.UserData;
 
 namespace GenderApp
 {

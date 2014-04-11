@@ -1,7 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
+﻿using System.Diagnostics;
 using GenderApp.Aggregates;
-using System.Diagnostics;
+using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
 
 namespace Test
 {

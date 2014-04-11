@@ -2,13 +2,8 @@
 {
     using GenderApp.Aggregates;
     using Microsoft.Practices.Unity;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
-    public static class UnityManager
+	public static class UnityManager
     {
         private static IUnityContainer container = InitializeContainer();
 
