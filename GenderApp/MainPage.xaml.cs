@@ -3,6 +3,7 @@ using System.Windows;
 using GenderApp.Aggregates;
 using Microsoft.Phone.Controls;
 using Microsoft.Practices.Unity;
+using System.Linq;
 
 namespace GenderApp
 {
@@ -26,7 +27,7 @@ namespace GenderApp
 		{
 			var contactRetreiver = UnityManager.Container.Resolve<IGenderContactsRetriever>();
 			var contacts = await contactRetreiver.GetContacts();
-
+			contacts = contacts.Take(500);
 
 			this.Progress.Maximum = contacts.Count();
 			this.Progress.Value = 0;
